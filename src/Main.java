@@ -17,6 +17,19 @@ public class Main {
     }
     public static void task2() {
         System.out.println("Задача 2");
+        int clientOS = 0; //(0 — iOS, 1 — Android)
+        int clientDeviceYear = 2015;
+        if (clientDeviceYear < 2015) {
+            switch (clientOS){
+                case 0: System.out.println("Установите облегченное приложение с App Store"); break;
+                case 1: System.out.println("Установите облегченное приложение с Google Store"); break;
+                default: System.out.println("Телефон не поддерживается");}
+        } else {
+                switch (clientOS){
+                case 0: System.out.println("Установите приложение с App Store"); break;
+                case 1: System.out.println("Установите приложение с Google Store"); break;
+                default: System.out.println("Телефон не поддерживается");}
+                }
     }
     public static void task3() {
         System.out.println("Задача 3");
