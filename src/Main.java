@@ -33,6 +33,9 @@ public class Main {
     }
     public static void task3() {
         System.out.println("Задача 3");
+        int year = 2022;
+        if ((year % 4)>0) System.out.println(year +" год не високосный");
+        else System.out.println(year +" год високосный");
     }
     public static void task4() {
         System.out.println("Задача 4");
